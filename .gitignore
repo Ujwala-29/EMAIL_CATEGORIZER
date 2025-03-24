@@ -1,0 +1,33 @@
+# Virtual environment (DO NOT push venv)
+venv/
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+models/
+# Logs
+*.log
+
+# Environment variables file (if you use one)
+.env
+
+# Notebook checkpoints (if you work with Jupyter notebooks)
+.ipynb_checkpoints/
+
+# Ignore model files if they are large (optional)
+models/
+
+# Ignore static/uploads if you have user-uploaded media (optional)
+static/uploads/
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+models/*.h5
+models/*.pkl
+models/*.joblib
+.vscode/
+.idea/
