@@ -17,7 +17,7 @@ models/
 .ipynb_checkpoints/
 
 # Ignore model files if they are large (optional)
-models/
+
 
 # Ignore static/uploads if you have user-uploaded media (optional)
 static/uploads/
