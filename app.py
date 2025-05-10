@@ -6,13 +6,13 @@ with open("best_rf_model.pkl", "rb") as f:
     rf_model = pickle.load(f)
 with open("best_svm_model.pkl", "rb") as f:
     svm_model = pickle.load(f)
-with open("nb_model(2).pkl", "rb") as f:
+with open("models/nb_model.pkl", "rb") as f:
     nb_model = pickle.load(f)
 
 # Load TF-IDF and Label Encoder
-with open("tfidf_vectorizer(2).pkl", "rb") as f:
+with open("models/tfidf_vectorizer.pkl", "rb") as f:
     tfidf_vectorizer = pickle.load(f)
-with open("label_encoder(2).pkl", "rb") as f:
+with open("models/label_encoder.pkl", "rb") as f:
     label_encoder = pickle.load(f)
 
 # Streamlit App
