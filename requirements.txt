@@ -3,4 +3,7 @@ scikit-learn
 pandas
 numpy
 joblib
+langdetect
+googletrans==4.0.0-rc1
+fuzzywuzzy
 
